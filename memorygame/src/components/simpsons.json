@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Homer",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png"
+    },
+    {
+      "id": 2,
+      "name": "Bart",
+      "image":"https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png"
+    },
+    {
+      "id": 3,
+      "name": "Marge",
+      "image":"https://vignette.wikia.nocookie.net/simpsons/images/0/0b/Marge_Simpson.png/revision/latest?cb=20180626055729"
+    },
+    {
+      "id": 4,
+      "name": "Apu",
+      "image":"https://upload.wikimedia.org/wikipedia/en/2/23/Apu_Nahasapeemapetilon_%28The_Simpsons%29.png"
+    },
+    {
+      "id": 5,
+      "name": "Lisa",
+      "image":"https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Lisa_Simpson.png/220px-Lisa_Simpson.png"
+    },
+    {
+      "id": 6,
+      "name": "Ned",
+      "image":"https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Ned_Flanders.png/220px-Ned_Flanders.png"
+    },
+    {
+      "id": 7,
+      "name": "Milhouse",
+      "image":"https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Milhouse_Van_Houten.png/220px-Milhouse_Van_Houten.png"
+    },
+    {
+      "id": 8,
+      "name": "Moe",
+      "image":"https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Moe_Szyslak.png/220px-Moe_Szyslak.png"
+    }
+]
