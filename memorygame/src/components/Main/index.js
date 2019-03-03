@@ -8,9 +8,7 @@ function Main(props) {
           <div className="img-container">
             <img alt={props.name} src={props.image} />
           </div>
-          {/* <span onClick={() => props.shuffle(props.id)} className="shuffle">
-            𝘅
-          </span> */}
+          <span onClick={() => props.shuffleSimps(props.image)} className="shuffle"></span>
         </div>
       </div>
     );

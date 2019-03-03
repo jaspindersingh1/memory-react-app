@@ -12,46 +12,33 @@ class App extends Component {
     simpsons
   };
 
+  // Shuffle all cards when one card is clicked
+  shuffleSimps = simpsons => {
+    console.log(simpsons)
+    let i = simpsons.length -1;
+    for (i; i > 0; i--) {
+      const j = Math.floor(Math.random()* (i+1));
+      return j
+    }
+    // return simpsons;
+    // return j
+  }
   
-
 
   render() {
     return (
       <div>
         <Nav />
         <Header />
-        <Main 
-        id={simpsons[0].id}
-        image={simpsons[0].image}
-        />
-        <Main 
-        id={simpsons[1].id}
-        image={simpsons[1].image}
-        />
-        <Main 
-        id={simpsons[2].id}
-        image={simpsons[2].image}
-        />
-        <Main 
-        id={simpsons[3].id}
-        image={simpsons[3].image}
-        />
-        <Main 
-        id={simpsons[4].id}
-        image={simpsons[4].image}
-        />
-        <Main 
-        id={simpsons[5].id}
-        image={simpsons[5].image}
-        />
-        <Main 
-        id={simpsons[6].id}
-        image={simpsons[6].image}
-        />
-        <Main 
-        id={simpsons[7].id}
-        image={simpsons[7].image}
-        />
+        {this.state.simpsons.map(simpsons =>(
+          <Main 
+          shuffleSimps={this.shuffleSimps}
+          id={simpsons.id}
+          key={simpsons.id}
+          image={simpsons.image}
+          />
+        ))}
+        
         
         <Footer />
       </div>
