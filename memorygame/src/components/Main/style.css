@@ -1,6 +1,6 @@
 .main {
     background-color: antiquewhite;
-    display: flex;
+    display: inline-block;
     min-height: 80%;
     flex-wrap: wrap;
     justify-content: center;
